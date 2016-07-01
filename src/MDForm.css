@@ -1,0 +1,56 @@
+/* put your css here */
+:local .container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 150px;
+  min-width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+
+  /* property for development */
+  /*background-color: gray;*/
+
+  .form {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 10px;
+    min-width: 350px;
+
+    .formGroup {
+      display: flex;
+      flex-direction: column;
+      .formLabel {
+        font-family: monospace;
+        font-size: 12px;
+        font-weight: 900;
+        padding: 10px 0px;
+      }
+      .formInput {
+        height: 30px;
+        font-size: 15px;
+        border-radius: 5px;
+        line-height: 20px;
+        padding: 0px 10px;
+        outline: none;
+      }
+      .formInput:focus {
+        box-shadow: 0 0 5px #1A8ADE;
+        transition: 0.3s;
+      }
+    }
+
+    .buttonsGroup {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+
+      padding: 10px 0px;
+    }
+  }
+}
+
+:local #prefix { for: id };
