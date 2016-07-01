@@ -4,15 +4,15 @@ import MDForm from './src/MDForm.jsx';
 const fields = [
   {
     fieldName: 'q',
-    displayName: '关键词',
-    placeholder: '输入您的关键词',
+    displayName: 'keywords',
+    placeholder: 'keywords',
     type: 'text'
   },
 ];
 
 const buttons = [
   {
-    text: '必应搜索',
+    text: 'bing',
     type: 'submit',
   },
 ];

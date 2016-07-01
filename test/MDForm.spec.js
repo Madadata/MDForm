@@ -62,28 +62,28 @@ describe('MDForm', () => {
     const fields = [
       {
         fieldName: 'username',
-        displayName: '用户名',
-        placeholder: '用户名',
+        displayName: 'Username',
+        placeholder: 'Username',
         type: 'text',
       },
       {
         fieldName: 'password',
-        displayName: '密码',
-        placeholder: '密码',
+        displayName: 'Password',
+        placeholder: 'Password',
         type: 'password',
       },
     ];
 
     const buttons = [
       {
-        text: '提交',
+        text: 'Submit',
         type: 'submit',
         onClick: () => {
           clicked = true;
         }
       },
       {
-        text: '未注册',
+        text: 'Register',
         type: 'button',
         redirect: '##',
       },
