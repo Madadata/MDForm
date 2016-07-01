@@ -1,0 +1,70 @@
+/* put your css here */
+:local .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  min-height: 150px;
+  min-width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+
+  /* property for development */
+}
+/*background-color: gray;*/
+:local .container .form {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 10px;
+  min-width: 350px;
+}
+:local .container .form .formGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+:local .container .form .formGroup .formLabel {
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 10px 0px;
+}
+:local .container .form .formGroup .formInput {
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 0px 10px;
+  outline: none;
+}
+:local .container .form .formGroup .formInput:focus {
+  box-shadow: 0 0 5px #1A8ADE;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+:local .container .form .buttonsGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0px;
+}
+
+:local #prefix { for: id };
