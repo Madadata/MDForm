@@ -5,10 +5,6 @@ import styles from './MDForm.css';
 
 class MDForm extends Component {
 
-  constructor() {
-    super();
-  }
-
   getFieldsJSX() {
     const { fields } = this.props;
     return fields.map((field, idx) => {
@@ -37,13 +33,13 @@ class MDForm extends Component {
     const { buttons } = this.props;
     return buttons.map((button, idx) => {
       const { text, type, redirect, onClick } = button;
-      let buttonProps = {}
+      const buttonProps = {};
       buttonProps.key = idx;
       if (!!onClick) { buttonProps.onClick = onClick; }
       if (!!redirect) { buttonProps.href = redirect; }
       if (!!type) { buttonProps.type = type; }
       return <MDButton {...buttonProps}>{text}</MDButton>;
-    })
+    });
   }
 
   render() {
