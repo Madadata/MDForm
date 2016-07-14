@@ -1,5 +1,6 @@
 # MDForm
 [![Build Status](https://travis-ci.org/Madadata/MDForm.svg?branch=master)](https://travis-ci.org/Madadata/MDForm)
+[![Dependency Status](https://dependencyci.com/github/Madadata/MDForm/badge)](https://dependencyci.com/github/Madadata/MDForm)
 [![GitHub issues](https://img.shields.io/github/issues/Madadata/MDForm.svg)](https://github.com/Madadata/MDForm/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Madadata/MDForm/master/LICENSE)
 
